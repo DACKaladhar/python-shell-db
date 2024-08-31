@@ -1,0 +1,6 @@
+1. Accept all the datatypes, assignments.
+int, bool, str, list, dict, float
+
+2. arithmetic operations on int, bool, float  (+, -, *, /, //, not, !)
+
+3. functions on 

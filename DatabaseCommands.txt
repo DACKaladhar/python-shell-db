@@ -1,0 +1,26 @@
+1. show dbs -- to show all the databases exists.
+2. use dbs -- to use a specific database.
+
+3. db > collections -- they mean tables. Each database may contain many tables in it called as collections.
+
+4. to delete a specific database. you should first use it and then drop it.
+appdb > db.dropDatabase()
+
+5. to print current database
+db
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+In an expression a token can be
+1. simple datatype
+2. inbuilt methods
+3. list.inbuilts
+4. dict.inbuilts
+5. str. bool. int. tuple. set. float. inbuilts
+6. list indexing / slicing 
+7. dictionary key-value
+
+--------------------------------------------------------------
+Restrictions in our project
+1. list.method() is good , list.method().method() is not good, because Double '.' operators can't be used.
+If you want to use then you should change the expression dividing the tokens(maybe not required). change the list.inbuilt methods()
